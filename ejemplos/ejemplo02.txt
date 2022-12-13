@@ -8,6 +8,7 @@
 //  arreglo notasEstudiante se corresponde con la posición 0 del arreglo notasEstudianteCualitativo
 //  Tomar en consideración si una nota tiene un valor mayor o igual 0 y menor o igual 5
 //  la nota tiene un equivalente a Mala; caso contrario se considera Buena
+
 1.  Inicio
 2.  (notasEstudiante(3),i[0-n])
 3.  (notasEstudianteCualitativo(3), x(20)[{a-z}, {A-Z}, {BS}])
@@ -23,6 +24,9 @@
     // 5 es calificación -- Mala
     // 2 es calificación -- Mala
 15. Para(indice<--0, indice<3, 1) haga
-16.   //
+16.    Si notastudiante[indice]>=0 && notasEstudiante[indice]<=5
+          Escribir notasEstudianteCualitativo[indice]<-- mala
+       Caso contrario
+          Escribir notasEstudianteCualitativo[indice]<-- buena
 17. Fin_Para
 18. Fin

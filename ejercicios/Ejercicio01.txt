@@ -1,0 +1,19 @@
+1.Inicio
+2.(semanaDia(5),x(50)[{a-z},{A-Z},{0-n},{$},{BS}]
+3.(venta(5),i[0-n])
+4.venta,i[0-n]
+5.indice,i[0-n]
+6.semanaDia[0]<--"Lunes"
+7.semanaDia[1]<--"Martes"
+8.semanaDia[2]<--"Miércoles"
+9.semanaDia[3]<--"Jueves"
+10.semanaDia[4]<--"Viernes"
+11. Para(indice <--0, indice <5 , 1) haga
+12.     Escribir "Ingrese la venta de cada día"
+13.     Leer venta
+14.     venta[indice] <-- venta
+15. FinPara
+16. Para(indice<--0, indice<5, 1) haga
+17.      Escribir semanaDia[indice] + " " + "$" + venta[indice] + "\n"
+18. FinPara
+19.Fin
