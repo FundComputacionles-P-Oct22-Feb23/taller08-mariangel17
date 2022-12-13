@@ -26,11 +26,3 @@
 16. Escribir suma // 53
 17. Fin
 
-// Solución ciclo Mientras
-12. Mientras el indice <3 entonces
-13.  suma <- suma + notasEstudiante1[indice]
-14.  suma <- suma + notasEstudiante2[indice]
-15.  indice <-- indice + 1
-16. FinMientras   
-17. Escribir suma // 53
-18S. Fin

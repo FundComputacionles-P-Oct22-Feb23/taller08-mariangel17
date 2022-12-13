@@ -1,0 +1,21 @@
+1.  Inicio
+2.  (notasEstudiante(3),i[0-n])
+3.  (notasEstudianteCualitativo(3), x(20)[{a-z}, {A-Z}, {BS}])
+4.  indice, i[0-n]
+5.  notasEstudiante[0] <-- 8
+6.  notasEstudiante[1] <-- 5
+7.  notasEstudiante[2] <-- 2
+8.  Para(indice<--0, indice<3, 1) haga
+9.    Escribir notasEstudiante[indice]
+14. Fin_Para
+15. // presenta el siguiente reporte
+    // 8 es calificación -- Buena
+    // 5 es calificación -- Mala
+    // 2 es calificación -- Mala
+15. Para(indice<--0, indice<3, 1) haga
+16.    Si notastudiante[indice]>=0 && notasEstudiante[indice]<=5
+17.          Escribir notasEstudianteCualitativo[indice]<-- mala
+18.    Caso contrario
+19.             Escribir notasEstudianteCualitativo[indice]<-- buena
+20. Fin_Para
+21. Fin

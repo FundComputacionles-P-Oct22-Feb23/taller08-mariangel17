@@ -24,9 +24,6 @@
     // 5 es calificación -- Mala
     // 2 es calificación -- Mala
 15. Para(indice<--0, indice<3, 1) haga
-16.    Si notastudiante[indice]>=0 && notasEstudiante[indice]<=5
-          Escribir notasEstudianteCualitativo[indice]<-- mala
-       Caso contrario
-          Escribir notasEstudianteCualitativo[indice]<-- buena
+16. 
 17. Fin_Para
 18. Fin
